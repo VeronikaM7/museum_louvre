@@ -1,0 +1,82 @@
+.content {
+    background-color: var(--white);
+}
+
+.container-tour {
+    max-width: 1440px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+}
+
+.tour-title {
+    font-family: 'Forum';
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: var(--font-gold);
+    margin-top: 75px;
+
+}
+
+.box {
+    max-width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.link-tour img {
+    margin-top: 75px;
+}
+
+.box-tour-title {
+    font-family: 'Forum';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: black;
+    margin: 25px 0 10px 0;
+}
+
+.link-around-tour {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 26px;
+    color: black;
+    transition: color .5s;
+}
+
+.link-around-tour:hover {
+    color: var(--font-gold);
+}
+
+.link-around-tour:active {
+    color: var(--active-links);
+}
+
+.link-panorama-tour {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 21px;
+    color: black;
+    padding-bottom: 75px;
+    transition: color .5s;
+}
+
+.link-panorama-tour:hover {
+    color: var(--font-gold);
+}
+
+.link-panorama-tour:active {
+    color: var(--active-links);
+}

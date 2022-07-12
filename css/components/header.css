@@ -6,10 +6,11 @@
 
 .container {
     display: flex;
+    justify-content: flex-start;
     max-width: 1440px;
     width: 100%;
     align-items: center;
-    margin: auto;
+    margin: 0 auto;
 
 }
 
@@ -61,8 +62,8 @@
 .header__wrapper {
     max-width: 1440px;
     display: flex;
-    justify-content: end;
-    margin: auto;
+    justify-content: flex-start;
+    margin: 0 auto;
     position: relative;
 }
 
@@ -87,13 +88,14 @@
     font-size: 28px;
     line-height: 33px;
     letter-spacing: 2px;
-    margin-top: 25px;
     position: absolute;
     top: 355px;
 
 }
 
 .header__discover-button {
+    position: relative;
+    top: 463px;
     font-family: 'Roboto';
     font-weight: 300;
     font-size: 22px;
@@ -106,9 +108,10 @@
     border-radius: 10px;
     width: 360px;
     height: 75px;
-    margin: 75px 80px 0 0;
+    margin: 0 80px 0 0;
     cursor: pointer;
     transition: background-color .5s;
+
 }
 
 .header__discover-button:hover {

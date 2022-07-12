@@ -1,0 +1,12 @@
+.main-line {
+    border-bottom: 3px solid var(--dark-red);
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.box-line {
+    border-bottom: 2px solid var(--dark-red);
+    width: 300px;
+    margin-bottom: 10px;
+}
