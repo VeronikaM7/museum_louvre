@@ -10,3 +10,9 @@
     width: 300px;
     margin-bottom: 10px;
 }
+
+.restore-line {
+    border-bottom: 3px solid var(--dark-red);
+    width: 660px;
+    margin-top: 25px;
+}
