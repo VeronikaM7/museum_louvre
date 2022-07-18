@@ -6,8 +6,9 @@
 .restore-block {
     max-width: 1440px;
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: stretch;
     margin: 0 auto;
 }
 
@@ -29,9 +30,9 @@
     line-height: 38px;
     color: var(--white);
     margin-top: 75px;
+    margin-right: 60px;
 }
 
 .restore-img {
     margin: 90px 0 75px 0;
-    
 }
