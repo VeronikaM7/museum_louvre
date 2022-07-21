@@ -46,7 +46,9 @@
             <div class="header__caption">
                 <h1 class="header__main-title">Welcome <br> to the Louvre</h1>
                 <h4 class="header__second-title">From the castle to the museum</h4>
-                <button class="header__discover-button">Discover the Louvre</button>
+                <form action="page/new.html" target="blank">
+                    <button class="header__discover-button">Discover the Louvre</button>
+                </form>
             </div>
             <img src="./images/main_foto.jpg" alt="mona-lisa" class="header__wrapper-lisa">
         </div>
@@ -154,7 +156,7 @@
             <div class="gallery-block-text">
                 <h2 class="gallery-title">Art Gallery</h2>
             </div>
-            <div class="gallery-block-img">
+            <div class="gallery-block">
                 <img src="./images/art-gallery/galery1.jpg" alt="foto">
                 <img src="./images/art-gallery/galery2.jpg" alt="foto">
                 <img src="./images/art-gallery/galery3.jpg" alt="foto">
@@ -165,6 +167,44 @@
                 <img src="./images/art-gallery/galery8.jpg" alt="foto">
                 <img src="./images/art-gallery/galery9.jpg" alt="foto">
             </div>
+        </div>
+        <div class="tickets-container">
+            <div class="tickets-container-title">
+                <h2 class="tickets-title">BUY TICKETS</h2>
+            </div>
+            <div class="main-line"></div>
+            <div class="ticket-box">
+                <img src="./images/buy-tickets-img.jpg" alt="foto">
+                <div class="ticket-form">
+                    <h4 class="ticket-second-title">Ticket Type</h4>
+                    <br>
+                    <input type="radio" name="exhibition" value="1"class="ticket-form-type">Permanent exhibition<br>
+                    <input type="radio" name="exhibition" value="2"class="ticket-form-type">Temporary exhibition<br>
+                    <input type="radio" name="exhibition" value="3"class="ticket-form-type">Combined Admission<br>
+                </div>
+                <div class="amount-container">
+                    <h4 class="ticket-second-title">Amount</h4>
+                    <br>
+                    <h5 class="tickets-age">Basic 18+</h5>
+                    <button type="button" onclick="this.nextElementSibling.stepDown()">-</button>
+                    <input type="number" step="1" min="0" class="amount-form">
+                    <button type="button" onclick="this.previousElementSibling.stepUp()">+</button>
+                    <br>
+                    <h5 class="tickets-age">Senior 65+</h5>
+                    <button type="button" onclick="this.nextElementSibling.stepDown()">-</button>
+                    <input type="number" step="1" min="0" class="amount-form">
+                    <button type="button" onclick="this.previousElementSibling.stepUp()">+</button>
+                    <br>
+                    <h4 class="ticket-second-title">Total €</h4>
+                    <br>
+                    <form action="page/new.html" target="blank">
+                        <button class="tickets-btn">Buy Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="panorama-wallpaper">
+            <img src="./images/panorama.jpg" alt="panorama-wallpaper">
         </div>
     </main>
 

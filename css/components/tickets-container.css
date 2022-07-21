@@ -1,0 +1,64 @@
+.tickets-container-title {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.tickets-title {
+    font-family: 'Forum';
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: var(--font-gold);
+    padding-top: 75px;
+}
+
+
+.ticket-box {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 75px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.ticket-second-title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+
+}
+
+.ticket-form{
+    margin-left: 60px;
+}
+
+.ticket-form-type {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 62px;
+    line-height: 26px;
+    color: #000000;
+
+}
+
+.amount-form::-webkit-inner-spin-button {
+    display: none;
+}
+
+.amount-form {
+    all: unset;
+    width: 3em;
+    text-align: center;
+
+}
+
+
+.panorama-wallpaper {
+    margin: 75px 0 75px 0;
+    background-image: url('../../images/panorama.jpg')
+}

@@ -8,6 +8,7 @@
     justify-content: flex-start;
     max-width: 1440px;
     margin: 0 auto;
+    padding-bottom: 75px;
 }
 
 .gallery-title {
@@ -18,5 +19,18 @@
     letter-spacing: 5px;
     text-transform: uppercase;
     color: var(--white);
-    margin-top: 75px;
+    padding-top: 75px;
+}
+
+.gallery-block{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery-block img{
+padding-bottom: 24px;
+
 }
