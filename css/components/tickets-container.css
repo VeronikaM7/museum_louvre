@@ -21,8 +21,12 @@
     padding-top: 75px;
     display: flex;
     justify-content: space-between;
-
 }
+
+.ticket-form {
+    margin-left: -200px;
+}
+
 
 .ticket-second-title {
     font-family: 'Roboto';
@@ -30,21 +34,30 @@
     font-size: 28px;
     line-height: 33px;
     color: #000000;
-
 }
 
-.ticket-form{
-    margin-left: 60px;
-}
-
-.ticket-form-type {
+.tickets-age {
     font-family: 'Roboto';
     font-weight: 300;
-    font-size: 62px;
+    font-size: 22px;
     line-height: 26px;
     color: #000000;
+}
+
+.tickets-btn {
+    width: 175px;
+    height: 50px;
+    background: #000000;
+    color: white;
+    border-radius: 2px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 2px;
 
 }
+
 
 .amount-form::-webkit-inner-spin-button {
     display: none;
@@ -52,8 +65,33 @@
 
 .amount-form {
     all: unset;
-    width: 3em;
+    width: 100px;
+    height: 50px;
     text-align: center;
+
+}
+
+.btn-min {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+
+.btn-max {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
 
 }
 
