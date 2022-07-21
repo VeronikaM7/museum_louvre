@@ -23,17 +23,16 @@
     justify-content: space-between;
 }
 
-.ticket-form {
-    margin-left: -200px;
-}
-
-
 .ticket-second-title {
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 28px;
     line-height: 33px;
     color: #000000;
+}
+
+.ticket-second-title-type{
+    margin-bottom: 50px;
 }
 
 .tickets-age {
@@ -55,6 +54,7 @@
     font-size: 22px;
     line-height: 26px;
     letter-spacing: 2px;
+    margin-top: 60px;
 
 }
 

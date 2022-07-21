@@ -179,35 +179,36 @@
             <div class="wrapper-sale"></div>
             <div class="ticket-form">
                 <h4 class="ticket-second-title ticket-second-title-type">Ticket Type</h4>
-                <br>
                 <input type="radio" name="exhibition" value="1" class="ticket-form-type">Permanent exhibition<br>
                 <input type="radio" name="exhibition" value="2" class="ticket-form-type">Temporary exhibition<br>
                 <input type="radio" name="exhibition" value="3" class="ticket-form-type">Combined Admission<br>
             </div>
             <div class="amount-container">
                 <h4 class="ticket-second-title">Amount</h4>
-                <br>
                 <h5 class="tickets-age">Basic 18+</h5>
                 <button class="btn-min" type="button" onclick="this.nextElementSibling.stepDown()">-</button>
                 <input type="number" step="1" min="0" class="amount-form">
                 <button class="btn-max" type="button" onclick="this.previousElementSibling.stepUp()">+</button>
-                <br>
                 <h5 class="tickets-age">Senior 65+</h5>
                 <button class="btn-min" type="button" onclick="this.nextElementSibling.stepDown()">-</button>
                 <input type="number" step="1" min="0" class="amount-form">
                 <button class="btn-max" type="button" onclick="this.previousElementSibling.stepUp()">+</button>
-                <br>
                 <h4 class="ticket-second-title">Total €</h4>
-                <br>
-                <form action="page/new.html" target="blank">
+                <a href="#" target="blank">
                     <button class="tickets-btn">Buy Now</button>
-                </form>
+                </a>
             </div>
         </div>
     </section>
-
     <div class="panorama-wallpaper">
         <img src="./images/panorama.jpg" alt="panorama-wallpaper">
+    </div>
+    <div class="contacts__container">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10499.212543918275!2d2.3271878840115896!3d48.86196426860297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e25d0482b3d%3A0x1c0b82c6e1d85100!2zNzUwMDEg0J_QsNGA0LjQtiwg0KTRgNCw0L3RhtC40Y8!5e0!3m2!1sru!2sby!4v1658427045771!5m2!1sru!2sby"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
     </div>
 
 </body>
