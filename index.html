@@ -52,7 +52,14 @@
                     <button class="header__discover-button">Discover the Louvre</button>
                 </form>
             </div>
-            <img src="./images/main_foto.jpg" alt="mona-lisa" class="header__wrapper-lisa">
+            <picture class="header__wrapper-lisa">
+                <source media="(max-width: 420px)" srcset="./images/mona-lisa/monalisa420.jpg"/>
+                <source media="(max-width: 768px)" srcset="./images/mona-lisa/monalisa768.jpg"/>
+                <source media="(max-width: 1024px)" srcset="./images/mona-lisa/monalisa1024.jpg"/>
+                <source media="(max-width: 1920px)" srcset="./images/mona-lisa/main_foto.jpg"/>
+                <img src='./images/mona-lisa/main_foto.jpg' alt='mona-lisa'/>
+            </picture>
+            
         </div>
     </header>
     <main class="content">

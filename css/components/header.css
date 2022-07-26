@@ -3,12 +3,10 @@
 
 }
 
-
 .container {
     display: flex;
     justify-content: center;
     max-width: 1440px;
-    width: 100%;
     align-items: center;
     flex-wrap: wrap;
     margin: 0 auto;
