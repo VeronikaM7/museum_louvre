@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOUVRE</title>
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <script src="https://kit.fontawesome.com/8d81d672ef.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/main.css">
+    <title>LOUVRE</title>
 </head>
 
 <body>
@@ -138,20 +139,71 @@
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
-            <div class="video-block">
-                <iframe width="452" height="254" src="https://www.youtube.com/embed/aWmJ5DgyWPI"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-                <iframe width="452" height="254" src="https://www.youtube.com/embed/Vi5D6FKhRmo"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-                <iframe width="452" height="254" src="https://www.youtube.com/embed/NOhDysLnTvY"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
+            <!-- <div class="video-block"> -->
+
+
+
+            <!-- </div> -->
+            <section class="swiper__video">
+                <div class="swiper video-block">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="swiper__video-block">
+                                <iframe width="450" height="254" src="https://www.youtube.com/embed/aWmJ5DgyWPI"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper__video-block">
+                                <iframe width="450" height="254" src="https://www.youtube.com/embed/Vi5D6FKhRmo"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper__video-block">
+                                <iframe width="450" height="254" src="https://www.youtube.com/embed/NOhDysLnTvY"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper__video-block">
+                                <iframe width="450" height="254" src="https://www.youtube.com/embed/NOhDysLnTvY"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper__video-block">
+                                <iframe width="450" height="254" src="https://www.youtube.com/embed/NOhDysLnTvY"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        ...
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev">
+                        <i class="fa-solid fa-angles-left"></i>
+                    </div>
+                    <div class="swiper-button-next">
+                        <i class="fa-solid fa-angles-right"></i>
+                    </div>
+
+                </div>
+            </section>
         </div>
         <div class="gallery-container">
             <div class="gallery-block-text">
@@ -283,6 +335,11 @@
             <a href="#" class="footer__bottom-item">Username</a>
         </div>
     </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./JS/components/slider-video.js"></script>
+    <script src="./JS/index.js"></script>
 </body>
 
 </html>
