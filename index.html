@@ -177,7 +177,6 @@
         <div class="main-line"></div>
         <div class="ticket-box">
             <img src="./images/buy-tickets-img.jpg" alt="foto">
-            <div class="wrapper-sale"></div>
             <div class="ticket-form">
                 <h4 class="ticket-second-title ticket-second-title-type">Ticket Type</h4>
                 <input type="radio" name="exhibition" value="1" class="ticket-form-type">Permanent exhibition<br>
@@ -194,11 +193,12 @@
                 <button class="btn-min" type="button" onclick="this.nextElementSibling.stepDown()">-</button>
                 <input type="number" step="1" min="0" class="amount-form">
                 <button class="btn-max" type="button" onclick="this.previousElementSibling.stepUp()">+</button>
-                <h4 class="ticket-second-title">Total €</h4>
+                <h4 class="ticket-second-title ticket-second-title-total">Total €</h4>
                 <a href="#" target="blank">
                     <button class="tickets-btn">Buy Now</button>
                 </a>
             </div>
+
         </div>
     </section>
     <div class="panorama-wallpaper">
@@ -234,49 +234,45 @@
                     <img src="./images/logo.svg" alt="logo" class="footer__logo-img">
                 </a>
                 <h3 class="footer__logo-title ">louvre</h3>
-                <nav class="header__navigation header__navigation--bottom">
-                    <ul class="header__navigation-list">
-                        <li class="header__navigation-list-item">
-                            <a class="header__navigation-link" href="#">Visiting</a>
-                        </li>
-                        <li class="header__navigation-list-item">
-                            <a class="header__navigation-link" href="#">Explore</a>
-                        </li>
-                        <li class="header__navigation-list-item">
-                            <a class="header__navigation-link" href="#">Video</a>
-                        </li>
-                        <li class="header__navigation-list-item">
-                            <a class="header__navigation-link" href="#">Gallery</a>
-                        </li>
-                        <li class="header__navigation-list-item">
-                            <a class="header__navigation-link" href="#">Tickets</a>
-                        </li>
-                        <li class="header__navigation-list-item">
-                            <a class="header__navigation-link" href="#">Contacts</a>
-                        </li>
-                    </ul>
-                </nav>
             </div>
+            <nav class="header__navigation footer__navigation">
+                <ul class="header__navigation-list footer__navigation-list">
+                    <li class="header__navigation-list-item footer__navigation-list-item">
+                        <a class="header__navigation-link" href="#">Visiting</a>
+                    </li>
+                    <li class="header__navigation-list-item footer__navigation-list-item">
+                        <a class="header__navigation-link" href="#">Explore</a>
+                    </li>
+                    <li class="header__navigation-list-item footer__navigation-list-item">
+                        <a class="header__navigation-link" href="#">Video</a>
+                    </li>
+                    <li class="header__navigation-list-item footer__navigation-list-item">
+                        <a class="header__navigation-link" href="#">Gallery</a>
+                    </li>
+                    <li class="header__navigation-list-item footer__navigation-list-item">
+                        <a class="header__navigation-link" href="#">Tickets</a>
+                    </li>
+                    <li class="header__navigation-list-item footer__navigation-list-item">
+                        <a class="header__navigation-link" href="#">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
             <div class="footer__social">
-                <a href="https://www.youtube.com/c/MuseeLouvre" target="_blank"
-                    class="footer__social-net footer__social-youtube">
-                 
+                <a href="https://www.youtube.com/c/MuseeLouvre" target="_blank" class="footer__social-net">
+                    <i class="fa-brands fa-youtube"></i>
                 </a>
-                <a href="https://www.instagram.com/museelouvre/" target="_blank"
-                    class="footer__social-net footer__social-inst">
-                 
+                <a href="https://www.instagram.com/museelouvre/" target="_blank" class="footer__social-net">
+                    <i class="fa-brands fa-instagram"></i>
                 </a>
-                <a href="https://www.facebook.com/museedulouvre/" target="_blank"
-                    class="footer__social-net footer__social-facebook">
-                  
+                <a href="https://www.facebook.com/museedulouvre/" target="_blank" class="footer__social-net">
+                    <i class="fa-brands fa-facebook-f"></i>
                 </a>
-                <a href="https://twitter.com/MuseeLouvre" target="_blank"
-                    class="footer__social-net footer__social-twitter">
-                
+                <a href="https://twitter.com/MuseeLouvre" target="_blank" class="footer__social-net">
+                    <i class="fa-brands fa-twitter"></i>
                 </a>
                 <a href="https://www.pinterest.com/igori/musee-du-louvre-paris/" target="_blank"
-                    class="footer__social-net footer__social-pinterest">
-                    
+                    class="footer__social-net">
+                    <i class="fa-brands fa-pinterest"></i>
                 </a>
             </div>
         </div>
