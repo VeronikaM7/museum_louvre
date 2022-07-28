@@ -1,11 +1,10 @@
 .gallery-container {
     background-color: black;
     margin-top: 75px;
-}
+    padding: 0 20px 0 20px;
+  }
 
-.gallery-block-text{
-    display: flex;
-    justify-content: flex-start;
+.gallery-block-text {
     max-width: 1440px;
     margin: 0 auto;
     padding-bottom: 75px;
@@ -22,15 +21,26 @@
     padding-top: 75px;
 }
 
-.gallery-block{
+.gallery-block {
     max-width: 1440px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    transform: translate(0px 120px);
+    opacity: 0;
+    transition: all 0.8s;
+
 }
 
-.gallery-block img{
-padding-bottom: 24px;
+
+.gallery-block._active {
+    opacity: 1;
+    transform: translate(0px 0px);
+
+}
+
+.gallery-block img {
+    padding-bottom: 24px;
 
 }

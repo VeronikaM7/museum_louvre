@@ -2,6 +2,7 @@
     position: relative;
     margin: 0 auto;
     max-width: 1440px;
+
 }
 
 .swiper-button-next:after,
@@ -15,15 +16,16 @@
     height: 12px;
     font-size: 15px;
     color: #999999;
+    padding-bottom: 40px;
 }
 
 .swiper-button-prev {
-    left: 650px;
+    left: 40%;
     top: 305px;
 }
 
 .swiper-button-next {
-    right: 650px;
+    right: 40%;
     top: 305px;
 }
 

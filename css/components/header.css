@@ -1,20 +1,27 @@
 .header {
     background-color: var(--bg-dark);
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 0 20px 0 20px;
 
 }
+
 
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     max-width: 1440px;
     align-items: center;
-    flex-wrap: wrap;
     margin: 0 auto;
+    padding: 62px 0 62px 0;
 
 }
 
-.header__logo {
+.container__logo-wrapper{
     display: flex;
+    gap: 25px;
+    
 }
 
 
@@ -26,16 +33,16 @@
     letter-spacing: 5px;
     text-transform: uppercase;
     color: var(--white);
-    padding: 61px 411px 58px 25px;
 }
 
 
 .header__navigation-list {
     display: flex;
+    flex-wrap: wrap;
+    gap: 55px ;
+
 
 }
-
-
 
 .header__navigation-link {
     font-family: 'Roboto';
@@ -45,7 +52,6 @@
     letter-spacing: 2px;
     text-decoration: none;
     color: var(--white);
-    padding-left: 55px;
     transition: color .5s;
 }
 
@@ -63,7 +69,6 @@
     display: flex;
     justify-content: flex-start;
     margin: 0 auto;
-    position: relative;
 }
 
 
@@ -76,8 +81,7 @@
     line-height: 90px;
     letter-spacing: 5px;
     text-transform: uppercase;
-    position: absolute;
-    top: 150px;
+    padding-top: 150px;
 }
 
 .header__second-title {
@@ -87,14 +91,10 @@
     font-size: 28px;
     line-height: 33px;
     letter-spacing: 2px;
-    position: absolute;
-    top: 355px;
-
+    padding-bottom: 75px;
 }
 
 .header__discover-button {
-    position: relative;
-    top: 463px;
     font-family: 'Roboto';
     font-weight: 300;
     font-size: 22px;
@@ -119,4 +119,5 @@
 
 .header__wrapper-lisa {
     margin-bottom: 60px;
+    z-index: 1;
 }

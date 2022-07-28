@@ -5,20 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOUVRE</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <script src="https://kit.fontawesome.com/8d81d672ef.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/main.css">
-    <title>LOUVRE</title>
 </head>
 
 <body>
-
     <header class="header">
         <div class="container">
-            <a href="#" class="header__logo">
-                <img src="./images/logo.svg" alt="logo" class="header__logo-img">
-            </a>
-            <h3 class="header__logo-title">louvre</h3>
+            <div class="container__logo-wrapper">
+                <a href="./index.html" class="header__logo">
+                    <img src="./images/logo.svg" alt="logo" class="header__logo-img">
+                </a>
+                <h3 class="header__logo-title">louvre</h3>
+            </div>
             <div class="header__panel">
                 <nav class="header__navigation">
                     <ul class="header__navigation-list">
@@ -29,7 +30,7 @@
                             <a class="header__navigation-link" href="#">Explore</a>
                         </li>
                         <li class="header__navigation-list-item">
-                            <a class="header__navigation-link" href="#">Video</a>
+                            <a class="header__navigation-link" href="./video_content.html">Video</a>
                         </li>
                         <li class="header__navigation-list-item">
                             <a class="header__navigation-link" href="#">Gallery</a>
@@ -59,7 +60,6 @@
                 <source media="(max-width: 1920px)" srcset="./images/mona-lisa/main_foto.jpg" />
                 <img src='./images/mona-lisa/main_foto.jpg' alt='mona-lisa' />
             </picture>
-
         </div>
     </header>
     <main class="content">
@@ -180,7 +180,7 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="swiper__video-block">
-                                    <iframe width="450" height="254" src="https://www.youtube.com/embed/NOhDysLnTvY"
+                                    <iframe width="450" height="254" src="https://www.youtube.com/embed/0v--ejW6KTY"
                                         title="YouTube video player" frameborder="0"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                         allowfullscreen></iframe>
@@ -188,13 +188,12 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="swiper__video-block">
-                                    <iframe width="450" height="254" src="https://www.youtube.com/embed/NOhDysLnTvY"
+                                    <iframe width="450" height="254" src="https://www.youtube.com/embed/pps-URCsej8"
                                         title="YouTube video player" frameborder="0"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                         allowfullscreen></iframe>
                                 </div>
                             </div>
-                            ...
                         </div>
 
 
@@ -216,17 +215,41 @@
             <div class="gallery-block-text">
                 <h2 class="gallery-title">Art Gallery</h2>
             </div>
-            <div class="gallery-block">
-                <img src="./images/art-gallery/galery1.jpg" alt="foto">
-                <img src="./images/art-gallery/galery2.jpg" alt="foto">
-                <img src="./images/art-gallery/galery3.jpg" alt="foto">
-                <img src="./images/art-gallery/galery4.jpg" alt="foto">
-                <img src="./images/art-gallery/galery5.jpg" alt="foto">
-                <img src="./images/art-gallery/galery6.jpg" alt="foto">
-                <img src="./images/art-gallery/galery7.jpg" alt="foto">
-                <img src="./images/art-gallery/galery8.jpg" alt="foto">
-                <img src="./images/art-gallery/galery9.jpg" alt="foto">
+
+            <div>
+                <div class="gallery-block _anim-items">
+                    <img src="./images/art-gallery/galery2.jpg" alt="foto">
+                    <img src="./images/art-gallery/galery1.jpg" alt="foto">
+                    <img src="./images/art-gallery/galery3.jpg" alt="foto">
+                </div>
+                <div class="gallery-block _anim-items">
+                    <img src="./images/art-gallery/galery4.jpg" alt="foto">
+                    <img src="./images/art-gallery/galery5.jpg" alt="foto">
+                    <img src="./images/art-gallery/galery6.jpg" alt="foto">
+                </div>
+                <div class="gallery-block _anim-items">
+                    <img src="./images/art-gallery/galery7.jpg" alt="foto">
+                    <img src="./images/art-gallery/galery8.jpg" alt="foto">
+                    <img src="./images/art-gallery/galery9.jpg" alt="foto">
+                </div>
+                <div class="gallery-block _anim-items">
+                    <img src="./images/art-gallery/galery6.jpg" alt="foto">
+                    <img src="./images/art-gallery/galery1.jpg" alt="foto">
+                    <img src="./images/art-gallery/galery3.jpg" alt="foto">
+                </div>
+                <div class="gallery-block _anim-items">
+                    <img src="./images/art-gallery/galery4.jpg" alt="foto">
+                    <img src="./images/art-gallery/galery5.jpg" alt="foto">
+                    <img src="./images/art-gallery/galery6.jpg" alt="foto">
+                </div>
+                <div class="gallery-block _anim-items">
+                    <img src="./images/art-gallery/galery7.jpg" alt="foto">
+                    <img src="./images/art-gallery/galery8.jpg" alt="foto">
+                    <img src="./images/art-gallery/galery9.jpg" alt="foto">
+                </div>
             </div>
+
+        </div>
         </div>
     </main>
     <section class="tickets-container">
@@ -259,10 +282,10 @@
             </div>
 
         </div>
+        <div class="panorama-wallpaper">
+            <img src="./images/panorama.jpg" alt="panorama_wallpaper">
+        </div>
     </section>
-    <div class="panorama-wallpaper">
-        <img src="./images/panorama.jpg" alt="panorama-wallpaper">
-    </div>
     <div class="contacts">
         <div class="contacts__container">
             <div class="contacts__container-title">
@@ -288,11 +311,11 @@
     </div>
     <footer class="footer">
         <div class="footer__container">
-            <div class="footer__logo">
-                <a href="#" class="footer__logo-bottom">
-                    <img src="./images/logo.svg" alt="logo" class="footer__logo-img">
+            <div class="container__logo-wrapper footer__container-logo-wrapper">
+                <a href="./index.html" class="header__logo">
+                    <img src="./images/logo.svg" alt="logo" class="header__logo-img">
                 </a>
-                <h3 class="footer__logo-title ">louvre</h3>
+                <h3 class="header__logo-title">louvre</h3>
             </div>
             <nav class="header__navigation footer__navigation">
                 <ul class="header__navigation-list footer__navigation-list">
@@ -346,6 +369,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="./JS/components/slider-video.js"></script>
+    <script src="./JS/components/scroll-galery.js"></script>
     <script src="./JS/index.js"></script>
 </body>
 

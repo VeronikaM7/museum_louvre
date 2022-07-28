@@ -1,6 +1,8 @@
 .tickets-container-title {
     max-width: 1440px;
     margin: 0 auto;
+    padding: 0 20px 0 20px;
+
 }
 
 .tickets-title {
@@ -21,6 +23,7 @@
     padding-top: 75px;
     display: flex;
     justify-content: space-between;
+    
 }
 
 .ticket-second-title {
@@ -115,8 +118,9 @@ input[type=radio] {
 
 }
 
-
 .panorama-wallpaper {
-    margin: 75px 0 75px 0;
-    background-image: url('../../images/panorama.jpg')
+    padding: 75px 0 75px 0;
+    position: relative;
+    width: 100%;
 }
+
