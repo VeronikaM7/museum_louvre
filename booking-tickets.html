@@ -20,34 +20,39 @@
                 <p class="booking__tour">Tour to Louvre</p>
                 <div class="booking-line"></div>
                 <div class="booking__input">
-                    <input type="date">
-                    <input type="time"> <br>
-                    <div>
-                        <input type="text" placeholder="Name"> <br>
-                    </div>
+                    <input type="date" placeholder="Date">
+                    <input type="time" placeholder="Time"> <br>
+                    <input type="text" placeholder="Name"> <br>
                     <input type="email" placeholder="E-mail"> <br>
                     <input type="tel" placeholder="Phone"> <br>
-                    <select name="booking__type">
-                        <option disabled>Ticket Type</option>
-                        <option value="1">Permanent exhibition</option>
-                        <option value="2">Temporary exhibition</option>
-                        <option value="3">Combined Admission</option>
+                    <select name="booking__type" class="booking__type-box">
+                        <option class="booking__type-item">Ticket Type</option>
+                        <option value="1" class="booking__type-item">Permanent exhibition</option>
+                        <option value="2" class="booking__type-item">Temporary exhibition</option>
+                        <option value="3" class="booking__type-item">Combined Admission</option>
                     </select> <br>
                 </div>
                 <div class="booking__form">
                     <p class="booking__entry-ticket">Entry ticket</p>
                     <div class="booking-line-second"></div>
-                    <div class="ticket-basic">
-                        <h5 class="tickets-age">Basic 18+ (20 €)</h5>
-                        <button class="btn-min" type="button" onclick="this.nextElementSibling.stepDown()">-</button>
-                        <input type="number" step="1" min="0" class="amount-form">
-                        <button class="btn-max" type="button" onclick="this.previousElementSibling.stepUp()">+</button>
+                    <div class="ticket-basic booking__form-box">
+                        <h5 class="booking__age-item">Basic 18+ (20 €)</h5>
+                        <div class="border__age">
+                            <button class="btn-min booking__btn-min" type="button"
+                                onclick="this.nextElementSibling.stepDown()">-</button>
+                            <input type="number" step="1" min="0" class="amount-form">
+                            <button class="btn-max booking__btn-max" type="button"
+                                onclick="this.previousElementSibling.stepUp()">+</button>
+                        </div>
                     </div>
-                    <div class="ticket-senior"></div>
-                    <h5 class="tickets-age">Senior 65+ (10 €)</h5>
-                    <button class="btn-min" type="button" onclick="this.nextElementSibling.stepDown()">-</button>
-                    <input type="number" step="1" min="0" class="amount-form">
-                    <button class="btn-max" type="button" onclick="this.previousElementSibling.stepUp()">+</button>
+                    <div class="ticket-senior booking__form-box">
+                        <h5 class="booking__age-item">Senior 65+ (10 €)</h5>
+                        <button class="btn-min booking__btn-min" type="button"
+                            onclick="this.nextElementSibling.stepDown()">-</button>
+                        <input type="number" step="1" min="0" class="amount-form">
+                        <button class="btn-max booking__btn-max" type="button"
+                            onclick="this.previousElementSibling.stepUp()">+</button>
+                    </div>
                 </div>
 
             </div>

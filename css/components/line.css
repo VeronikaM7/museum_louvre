@@ -18,18 +18,20 @@
     margin-top: 25px;
 }
 
-.footer-line{
+.footer-line {
     border-bottom: 3px solid #666666;
     width: 100%;
 }
 
-.booking-line{
+.booking-line {
     border-bottom: 3px solid var(--dark-red);
     width: 400px;
     margin-bottom: 60px;
 }
-.booking-line-second{
+
+.booking-line-second {
     border-bottom: 2px solid var(--dark-red);
     width: 370px;
-
+    margin: 0 auto;
+    /* margin-bottom: 18px; */
 }

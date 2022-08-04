@@ -51,6 +51,7 @@ input[type="text" i] {
     height: 45px;
     border: 1px solid #030303;
     margin: 20px 0;
+
 }
 
 
@@ -69,9 +70,28 @@ input[type="tel" i] {
 
 }
 
+.booking__type-box {
+    width: 400px;
+    height: 45px;
+    border: 1px solid #030303;
+    padding-left: 43px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #030303;
+    background-image: url('../../images/icons/ticket--type.svg');
+    background-repeat: no-repeat;
+    background-position: 15px;
+}
+
+
 input[type="text" i]::placeholder,
 input[type="email" i]::placeholder,
-input[type="tel" i]::placeholder {
+input[type="tel" i]::placeholder,
+input[type="time" i]::placeholder,
+input[type="date" i]::placeholder {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -81,4 +101,69 @@ input[type="tel" i]::placeholder {
     align-items: center;
     padding-left: 43px;
     color: #030303;
+}
+
+input[type="text" i]::placeholder {
+    background-image: url('../../images/icons/user-solid.svg');
+    background-repeat: no-repeat;
+    background-position: 15px;
+}
+
+input[type="email" i]::placeholder {
+    background-image: url('../../images/icons/email.svg');
+    background-repeat: no-repeat;
+    background-position: 15px;
+
+}
+
+input[type="tel" i]::placeholder {
+    background-image: url('../../images/icons/mobile.svg');
+    background-repeat: no-repeat;
+    background-position: 15px;
+
+}
+
+.booking__entry-ticket {
+    font-family: 'Forum';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: var(--font-gold);
+    padding: 10px 0 5px 15px;
+}
+
+.booking__form {
+    width: 400px;
+    height: 135px;
+    border: 1px solid #030303;
+}
+
+.booking__form-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.booking__age-item {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #030303;
+    padding-left: 15px;
+
+}
+
+.border__age{
+    border: 1px solid #030303;
+    height: 25px;
+    margin-top: 18px;
+}
+
+.booking__btn-max,
+.booking__btn-min {
+    width: 10px;
+height: 10px;
 }
