@@ -13,6 +13,7 @@
     letter-spacing: 5px;
     text-transform: uppercase;
     color: var(--font-gold);
+    margin-top: 75px;
 }
 
 .address-title {

@@ -30,8 +30,8 @@
     justify-content: space-between;
 }
 
-.link-tour img {
-    margin-top: 75px;
+.box-wrapper{
+    padding-bottom: 75px;
 }
 
 .box-tour-title {
@@ -70,7 +70,6 @@
     font-size: 18px;
     line-height: 21px;
     color: black;
-    padding-bottom: 75px;
     transition: color .5s;
 }
 

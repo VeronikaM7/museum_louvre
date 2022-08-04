@@ -3,6 +3,7 @@
     max-width: 1440px;
     margin: 0 auto;
     margin-top: 25px;
+    margin-bottom: 75px;
 }
 
 .box-line {
@@ -20,4 +21,15 @@
 .footer-line{
     border-bottom: 3px solid #666666;
     width: 100%;
+}
+
+.booking-line{
+    border-bottom: 3px solid var(--dark-red);
+    width: 400px;
+    margin-bottom: 60px;
+}
+.booking-line-second{
+    border-bottom: 2px solid var(--dark-red);
+    width: 370px;
+
 }

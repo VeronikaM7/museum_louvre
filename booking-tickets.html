@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOUVRE BOOKING TICKETS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://kit.fontawesome.com/8d81d672ef.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <div class="booking">
+        <div class="booking__wrapper">
+            <div class="booking__wrapper-info">
+                <a href="./index.html"><img src="./images/logo-gold.svg" alt="logo" class="booking__wrapper-logo"></a>
+                <h2 class="booking__title">Booking tickets</h2>
+                <p class="booking__tour">Tour to Louvre</p>
+                <div class="booking-line"></div>
+                <div class="booking__input">
+                    <input type="date">
+                    <input type="time"> <br>
+                    <div>
+                        <input type="text" placeholder="Name"> <br>
+                    </div>
+                    <input type="email" placeholder="E-mail"> <br>
+                    <input type="tel" placeholder="Phone"> <br>
+                    <select name="booking__type">
+                        <option disabled>Ticket Type</option>
+                        <option value="1">Permanent exhibition</option>
+                        <option value="2">Temporary exhibition</option>
+                        <option value="3">Combined Admission</option>
+                    </select> <br>
+                </div>
+                <div class="booking__form">
+                    <p class="booking__entry-ticket">Entry ticket</p>
+                    <div class="booking-line-second"></div>
+                    <div class="ticket-basic">
+                        <h5 class="tickets-age">Basic 18+ (20 €)</h5>
+                        <button class="btn-min" type="button" onclick="this.nextElementSibling.stepDown()">-</button>
+                        <input type="number" step="1" min="0" class="amount-form">
+                        <button class="btn-max" type="button" onclick="this.previousElementSibling.stepUp()">+</button>
+                    </div>
+                    <div class="ticket-senior"></div>
+                    <h5 class="tickets-age">Senior 65+ (10 €)</h5>
+                    <button class="btn-min" type="button" onclick="this.nextElementSibling.stepDown()">-</button>
+                    <input type="number" step="1" min="0" class="amount-form">
+                    <button class="btn-max" type="button" onclick="this.previousElementSibling.stepUp()">+</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
