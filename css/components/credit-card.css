@@ -1,0 +1,56 @@
+.card-front-box {
+    width: 360px;
+    background: #BCBCBC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-type {
+}
+
+
+#card-number {
+    width: 215px;
+    margin-left: 20px;
+    margin-top: 0;
+    border: none;
+
+
+}
+
+#card-name {
+    width: 320px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+
+.card-date-input {
+    display: flex;
+}
+
+.credit-cell,
+.card-term-month,
+.card-term-year,
+#card-name {
+    margin-left: 20px;
+    border: none;
+}
+
+.card-term-month,
+.card-term-year {
+    width: 100px;
+    height: 35px;
+}
+
+.card-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #161615;
+    padding: 10px 0 5px 20px;
+
+}

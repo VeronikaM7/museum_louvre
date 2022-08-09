@@ -33,5 +33,11 @@
     border-bottom: 2px solid var(--dark-red);
     width: 370px;
     margin: 0 auto;
-    /* margin-bottom: 18px; */
+}
+
+.booking-result-line {
+    width: 470px;
+    border-bottom: 2px solid var(--dark-red);
+    margin: 0 auto;
+    padding-top: 9px;
 }

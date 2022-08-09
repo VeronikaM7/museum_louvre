@@ -227,7 +227,7 @@
             <div class="gallery-block-text">
                 <h2 class="gallery-title">Art Gallery</h2>
             </div>
-    
+
             <div>
                 <div class="gallery-block _anim-items">
                     <img src="./images/art-gallery/galery2.jpg" alt="foto">
@@ -261,7 +261,7 @@
                 </div>
             </div>
         </div>
-    
+
     </main>
     <section class="tickets-container">
         <div class="tickets-container-title">
@@ -279,15 +279,20 @@
             <div class="amount-container">
                 <h4 class="ticket-second-title">Amount</h4>
                 <h5 class="tickets-age">Basic 18+</h5>
-                <button class="btn-min" type="button" onclick="this.nextElementSibling.stepDown()">-</button>
-                <input type="number" step="1" min="0" class="amount-form">
-                <button class="btn-max" type="button" onclick="this.previousElementSibling.stepUp()">+</button>
+                <div class="ticket-border">
+                    <button class="btn-min" type="button" onclick="this.nextElementSibling.stepDown()">-</button>
+                    <input type="number" step="1" min="0" class="amount-form">
+                    <button class="btn-max" type="button" onclick="this.previousElementSibling.stepUp()">+</button>
+                </div>
                 <h5 class="tickets-age">Senior 65+</h5>
-                <button class="btn-min" type="button" onclick="this.nextElementSibling.stepDown()">-</button>
-                <input type="number" step="1" min="0" class="amount-form">
-                <button class="btn-max" type="button" onclick="this.previousElementSibling.stepUp()">+</button>
+                <div class="ticket-border">
+                    <button class="btn-min" type="button" onclick="this.nextElementSibling.stepDown()">-</button>
+                    <input type="number" step="1" min="0" class="amount-form">
+                    <button class="btn-max" type="button" onclick="this.previousElementSibling.stepUp()">+</button>
+                </div>
+
                 <h4 class="ticket-second-title ticket-second-title-total">Total €</h4>
-                <a href="#" target="blank">
+                <a href="./booking-tickets.html" target="blank">
                     <button class="tickets-btn">Buy Now</button>
                 </a>
             </div>
