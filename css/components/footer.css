@@ -7,16 +7,14 @@
 .footer__container {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0 20px 0 20px;
-
-}
-
-.footer__container-logo-wrapper {
     display: flex;
-    padding-top: 86px;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
-
+.footer__container-logo-wrapper{
+    margin-top: 86px;
+}
 
 .footer__logo-title {
     font-family: 'Forum';
@@ -30,23 +28,26 @@
     padding-left: 26px;
 }
 
-.footer__navigation-list {
-    display: grid;
-    grid-template-columns: 110px 110px;
-    gap: 25px 150px;
-    justify-items: start;
-    margin: 0 auto;
-    max-width: 837px;
-    transform: translateY(-33px);
+.footer__navigation{
+    margin-top: 87px;
+    margin-bottom: 50px;
+}
 
+
+.footer__navigation-list {
+    display: flex;
+    gap: 170px;
+}
+
+.footer__navigation-list-item {
+    padding-bottom: 25px;
 }
 
 
 .footer__social {
     display: flex;
-    justify-content: space-between;
-    max-width: 245px;
-    align-content: flex-end;
+    gap: 25px;
+    margin-top: 162px;
 
 }
 
