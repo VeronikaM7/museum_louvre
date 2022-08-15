@@ -81,7 +81,6 @@
     line-height: 90px;
     letter-spacing: 5px;
     text-transform: uppercase;
-    padding-top: 150px;
 }
 
 .header__second-title {
@@ -119,5 +118,5 @@
 
 .header__wrapper-lisa {
     margin-bottom: 60px;
-    z-index: 1;
+    width: 100%;
 }

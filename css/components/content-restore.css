@@ -21,7 +21,7 @@
     letter-spacing: 5px;
     text-transform: uppercase;
     color: var(--white);
-    margin-top: 75px;
+    padding-top: 75px;
 }
 
 .restore-item {
@@ -34,7 +34,32 @@
     margin-right: 60px;
 }
 
+.highlight {
+    color: #CAAA7D;
+}
+
 .restore-img {
     margin: 90px 0 75px 0;
     width: 100%;
+}
+
+@media screen and (max-width: 1420px) {
+    .restore-block {
+        display: block;
+        width: 100%;
+
+    }
+
+    .restore-item br {
+        display: none;
+    }
+
+    .restore-line {
+        width: 100%;
+    }
+
+    .restore-item-hidden{
+        display: none;
+    }
+
 }

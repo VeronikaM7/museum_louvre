@@ -6,13 +6,42 @@
     align-items: center;
 }
 
-.card-type {
+.credit-cell-box {
+    position: relative;
 }
 
+.card-back-box {
+    width: 360px;
+    background-color: #939393;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    transform: translate(110px, 30px);
+    position: absolute;
+    z-index: -1;
+}
+
+.card-back-line {
+    background-color: #161615;
+    width: 360px;
+    height: 45px;
+    margin: 25px 0 15px 0;
+}
+
+.card-back-code {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #161615;
+    margin-right: 35px;
+
+}
 
 #card-number {
     width: 215px;
-    margin-left: 20px;
+    margin-left: 7px;
     margin-top: 0;
     border: none;
 
@@ -25,6 +54,18 @@
     margin-bottom: 15px;
 }
 
+#card-back-password {
+    width: 75px;
+    height: 35px;
+    border: none;
+    margin: 10px 20px 10px 0;
+}
+
+
+.card-back-info {
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
 
 .card-date-input {
     display: flex;
@@ -34,7 +75,7 @@
 .card-term-month,
 .card-term-year,
 #card-name {
-    margin-left: 20px;
+    margin-left: 8px;
     border: none;
 }
 
@@ -53,4 +94,36 @@
     color: #161615;
     padding: 10px 0 5px 20px;
 
+}
+
+.card-type {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+    padding: 34px 20px 0 0;
+}
+
+@media screen and (max-width: 420px) {
+    .card-front-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .booking__container-card {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+
+    }
+
+    .card-back-box{
+        z-index: 0;
+        position: static;
+        transform: none;
+        border-top: white 15px solid;
+    }
 }

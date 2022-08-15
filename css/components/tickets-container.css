@@ -23,8 +23,10 @@
     padding-top: 75px;
     display: flex;
     justify-content: space-between;
+}
 
-
+.ticket-box-foto{
+   max-width: 100%;
 }
 
 .ticket-second-title {

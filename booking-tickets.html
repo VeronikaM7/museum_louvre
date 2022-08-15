@@ -91,6 +91,10 @@
                             <p class="card-title">Card number</p>
                             <input type="text" id="card-number" class="credit-cell" inputmode="numeric" pattern="[0-9]*"
                                 autocapitalize="off" autocomplete="cc-number">
+                            <div class="card-type">
+                                <img src="./images/Visa.svg" alt="visa">
+                                <img src="./images/Mastercard.svg" alt="Mastercard">
+                            </div>
                             <p class="card-title">Expiration date</p>
                             <div class="card-date-input">
                                 <input type="number" class="card-term-month" min="1" max="12">
@@ -99,13 +103,19 @@
                             <p class="card-title">Cardholder name</p>
                             <input type="text" id="card-name">
                         </div>
-                        <div class="card-type">
-                            <img src="./images/Visa.svg" alt="visa">
-                            <img src="./images/Mastercard.svg" alt="Mastercard">
+                        <div class="card-back-box">
+                            <div class="card-back-line"></div>
+                            <p class="card-back-code">CVC/CVV</p>
+                            <input type="password" id="card-back-password" minlength="3" maxlength="3">
+                            <p class="card-back-info">The last <br>
+                                3 or 4 digits <br>
+                                on back <br>
+                                of the card</p>
                         </div>
                     </div>
 
                 </div>
+                <button class="booking-btn">Book</button>
             </div>
         </div>
     </div>

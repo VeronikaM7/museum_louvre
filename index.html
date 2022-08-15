@@ -53,20 +53,16 @@
                     <button class="header__discover-button">Discover the Louvre</button>
                 </form>
             </div>
-            <picture class="header__wrapper-lisa">
-                <source media="(max-width: 420px)" srcset="./images/mona-lisa/monalisa420.jpg" />
-                <source media="(max-width: 768px)" srcset="./images/mona-lisa/monalisa768.jpg" />
-                <source media="(max-width: 1024px)" srcset="./images/mona-lisa/monalisa1024.jpg" />
-                <source media="(max-width: 1920px)" srcset="./images/mona-lisa/main_foto.jpg" />
-                <img src='./images/mona-lisa/main_foto.jpg' alt='mona-lisa' />
-            </picture>
+            <div>
+                <img src='./images/mona-lisa/main_foto.jpg' class="header__wrapper-lisa" alt='mona-lisa' />
+            </div>
         </div>
     </header>
     <main class="content">
         <div class="container-tour">
             <h2 class="tour-title">Virtual tour</h2>
         </div>
-        <div class="main-line"></div>
+        <div class="main-line-virtual"></div>
         <div class="box">
             <div class="box-wrapper">
                 <a class="link-tour" href="https://goo.gl/maps/61C26DKEFivMFFR49"><img
@@ -137,10 +133,11 @@
                     <p class="restore-item">Las Meninas is a 1656 painting by Diego Velázquez, the leading artist of the
                         Spanish
                         Golden Age. <br> <br>
-                        It was cleaned in 1984 to remove a "yellow veil" of dust that had gathered since
+                        It was cleaned in 1984 to remove a <span class="highlight">"yellow veil"</span> of dust that had
+                        gathered since
                         the
-                        previous restoration in the 19th century. <br> <br>
-                        The cleaning provoked furious protests, not because
+                        previous restoration in the 19th century. </p>
+                    <p class="restore-item restore-item-hidden"> The cleaning provoked furious protests, not because
                         the
                         picture had been damaged in any way, but because it looked different.</p>
                 </div>
@@ -269,7 +266,7 @@
         </div>
         <div class="main-line"></div>
         <div class="ticket-box">
-            <img src="./images/buy-tickets-img.jpg" alt="foto">
+            <img src="./images/buy-tickets-img.jpg" class="ticket-box-foto" alt="foto">
             <div class="ticket-form">
                 <h4 class="ticket-second-title ticket-second-title-type">Ticket Type</h4>
                 <input type="radio" name="exhibition" value="1" class="ticket-form-type">Permanent exhibition<br>
@@ -307,7 +304,7 @@
             <div class="contacts__container-title">
                 <h2 class="contacts-title">Contacts</h2>
             </div>
-            <div class="main-line"></div>
+            <div class="main-line-contact"></div>
             <h4 class="address-title">Palais Royal <br> Musee du Louvre</h4>
             <div class="contacts__box">
                 <div class="contacts-block">

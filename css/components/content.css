@@ -80,3 +80,9 @@
 .link-panorama-tour:active {
     color: var(--active-links);
 }
+
+@media screen and (max-width: 1420px) {
+    .box{
+        justify-content: space-around;
+    }
+}

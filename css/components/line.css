@@ -1,8 +1,25 @@
 .main-line {
     border-bottom: 3px solid var(--dark-red);
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
     margin-top: 25px;
+
+}
+
+.main-line-contact{
+    border-bottom: 3px solid var(--dark-red);
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 25px;
+
+}
+
+.main-line-virtual {
+    border-bottom: 3px solid var(--dark-red);
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 75px;
 }
 
 .box-line {
