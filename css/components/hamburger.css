@@ -1,0 +1,9 @@
+.header__hamburger {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: none;
+    width: 32px;
+    height: 18px;
+
+}

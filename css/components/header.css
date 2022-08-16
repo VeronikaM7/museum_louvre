@@ -121,6 +121,22 @@
     width: 100%;
 }
 
+@media screen and (max-width: 1240px) {
+    .header__panel {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 1241px) {
+    .header__adaptive{
+        display: none;
+    }
+}
+
+
+
+
 @media screen and (max-width: 768px) {
     .header__wrapper {
         display: block;
