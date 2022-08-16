@@ -1,5 +1,5 @@
 .contacts__container {
-    width: 1440px;
+   max-width: 1440px;
     margin: 0 auto;
     padding: 0 20px 0 20px;
 
@@ -56,8 +56,4 @@
 .contacts__box{
     display: flex;
     justify-content: space-between;
-}
-
-.contact-map{
-    width: 100%;
 }

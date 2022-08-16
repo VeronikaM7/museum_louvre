@@ -58,8 +58,31 @@
         width: 100%;
     }
 
-    .restore-item-hidden{
+    .restore-title {
+        font-size: 50px;
+        line-height: 75px;
+    }
+
+    .restore-item-hidden {
         display: none;
     }
 
+}
+
+@media screen and (max-width: 768px) {
+    .restore-item {
+        display: none;
+    }
+
+    .restore-title {
+        font-size: 40px;
+        line-height: 60px;
+    }
+}
+
+@media screen and (max-width: 446px) {
+    .restore-title {
+        font-size: 28px;
+        line-height: 40px;
+    }
 }

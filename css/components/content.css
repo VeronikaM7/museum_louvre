@@ -22,6 +22,7 @@
     margin-top: 75px;
 }
 
+
 .box {
     max-width: 1440px;
     display: flex;
@@ -30,7 +31,7 @@
     justify-content: space-between;
 }
 
-.box-wrapper{
+.box-wrapper {
     padding-bottom: 75px;
 }
 
@@ -82,7 +83,14 @@
 }
 
 @media screen and (max-width: 1420px) {
-    .box{
+    .box {
         justify-content: space-around;
     }
+}
+
+@media screen and (max-width: 1024px) {
+    .box-wrapper img {
+        width: 100%;
+    }
+
 }
