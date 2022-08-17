@@ -1,3 +1,8 @@
+h1.header__main-title {
+    margin-top: 150px;
+    margin-bottom: 0;
+}
+
 .header {
     background-color: var(--bg-dark);
     max-width: 100%;
@@ -64,14 +69,13 @@
     color: var(--active-links);
 }
 
+
 .header__wrapper {
     max-width: 1440px;
     display: flex;
     justify-content: flex-start;
     margin: 0 auto;
 }
-
-
 
 .header__main-title {
     font-family: 'Forum';
@@ -81,6 +85,7 @@
     line-height: 90px;
     letter-spacing: 5px;
     text-transform: uppercase;
+    position: absolute;
 }
 
 .header__second-title {
@@ -90,7 +95,8 @@
     font-size: 28px;
     line-height: 33px;
     letter-spacing: 2px;
-    padding-bottom: 75px;
+    position: absolute;
+    transform: translateY(355px);
 }
 
 .header__discover-button {
@@ -104,12 +110,13 @@
     background-color: var(--dark-red);
     color: var(--white);
     border-radius: 10px;
+    border-color: var(--dark-red);
     width: 360px;
     height: 75px;
     margin: 0 80px 0 0;
     cursor: pointer;
     transition: background-color .5s;
-
+    transform: translateY(463px);
 }
 
 .header__discover-button:hover {
@@ -121,23 +128,46 @@
     width: 100%;
 }
 
-@media screen and (max-width: 1240px) {
+
+@media screen and (max-width: 1191px) {
     .header__panel {
         display: none;
     }
 
+    .header__main-title {
+        font-size: 50px;
+    }
+
+    .header__second-title {
+        position: absolute;
+        font-size: 24px;
+        transform: translateY(255px);
+    }
+
+    h1.header__main-title {
+        margin-top: 50px;
+    }
+
+    .header__discover-button {
+        transform: translateY(333px);
+    }
+
+
+
 }
 
-@media screen and (min-width: 1241px) {
-    .header__adaptive{
+@media screen and (min-width: 1191px) {
+    .hamburger-btn {
         display: none;
+    }
+
+    .header__adaptive-block {
+        display: none;
+
     }
 }
 
-
-
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1020px) {
     .header__wrapper {
         display: block;
     }
@@ -150,11 +180,24 @@
         font-size: 40px;
         line-height: 60px;
         text-align: center;
+        position: sticky;
+    }
+
+    h1.header__main-title {
+        margin-top: 0;
+
     }
 
     .header__second-title {
         font-size: 20px;
         line-height: 23px;
         text-align: center;
+        position: sticky;
+        transform: translateY(25px);
     }
+
+    .header__wrapper-lisa {
+        margin-top: 95px;
+    }
+
 }

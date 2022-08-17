@@ -19,12 +19,6 @@
                     <img src="./images/logo.svg" alt="logo" class="header__logo-img">
                 </a>
                 <h3 class="header__logo-title">louvre</h3>
-
-            </div>
-            <div class="header__adaptive">
-                <button class="header__hamburger">
-                    <i class="fa-solid fa-bars"></i>
-                </button>
             </div>
             <div class="header__panel">
                 <nav class="header__navigation">
@@ -48,19 +42,54 @@
                             <a class="header__navigation-link" href="./contacts.html">Contacts</a>
                         </li>
                     </ul>
-
                 </nav>
-
             </div>
+
+
+  
+
+
+            <div class="hamburger-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="header__adaptive-block">
+                <nav class="header__adaptive-wrapper">
+                    <ul class="header__navigation-list header__navigation-list--mobile">
+                        <li class="header__navigation-list-item header__navigation-list-item--mobile">
+                            <a class="header__navigation-link" href="./visiting.html">Visiting</a>
+                        </li>
+                        <li class="header__navigation-list-item header__navigation-list-item--mobile">
+                            <a class="header__navigation-link" href="./explore.html">Explore</a>
+                        </li>
+                        <li class="header__navigation-list-item header__navigation-list-item--mobile">
+                            <a class="header__navigation-link" href="./video_content.html">Video</a>
+                        </li>
+                        <li class="header__navigation-list-item header__navigation-list-item--mobile">
+                            <a class="header__navigation-link" href="./gallery.html">Gallery</a>
+                        </li>
+                        <li class="header__navigation-list-item header__navigation-list-item--mobile">
+                            <a class="header__navigation-link" href="./booking-tickets.html">Tickets</a>
+                        </li>
+                        <li class="header__navigation-list-item header__navigation-list-item--mobile">
+                            <a class="header__navigation-link" href="./contacts.html">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+
+
+
 
         </div>
         <div class="header__wrapper">
             <div class="header__caption">
                 <h1 class="header__main-title">Welcome <br> to the Louvre</h1>
                 <h4 class="header__second-title">From the castle to the museum</h4>
-                <form action="page/new.html" target="blank">
-                    <button class="header__discover-button">Discover the Louvre</button>
-                </form>
+                <button class="header__discover-button">Discover the Louvre</button>
             </div>
             <div>
                 <img src='./images/mona-lisa/main_foto.jpg' class="header__wrapper-lisa" alt='mona-lisa' />
@@ -390,8 +419,10 @@
     </footer>
 
 
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="./JS/components/slider-video.js"></script>
+    <script src="./JS/components/hamburger.js"></script>
     <script src="./JS/components/scroll-galery.js"></script>
     <script src="./JS/index.js"></script>
 </body>
