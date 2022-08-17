@@ -3,7 +3,7 @@ const swiper = new Swiper('.swiper', {
     direction: 'horizontal',
     slidesPerView: 3,
     loop: true,
-    spaceBetween: 40,
+    spaceBetween: 20,
 
     
     
@@ -22,17 +22,17 @@ const swiper = new Swiper('.swiper', {
 
         400: {
             slidesPerView: 1,
-            spaceBetween: 20
+            spaceBetween: 10
         },
 
         915: {
             slidesPerView: 2,
-            spaceBetween: 30
+            spaceBetween: 15
         },
 
         1390: {
             slidesPerView: 3,
-            spaceBetween: 40
+            spaceBetween: 20
         }
     }
 

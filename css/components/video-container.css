@@ -1,5 +1,6 @@
 .video-container {
     margin: 75px 0;
+    padding: 0 20px 0 20px;
 
 }
 
@@ -41,14 +42,33 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    max-width: 1440px;
 }
 
 
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1345px) {
     .video-item {
         display: none;
     }
 
 
 }
+/* 
+@media screen and (max-width: 1190px) {
+    .header__panel {
+        display: flex;
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .header__navigation-list {
+        gap: 8px;
+        flex-direction: column;
+    }
+
+    .container {
+        justify-content: space-around;
+    }
+} */

@@ -1,7 +1,7 @@
 .gallery-container {
     background-color: black;
     padding: 0 20px 0 20px;
-  }
+}
 
 .gallery-block-text {
     max-width: 1440px;
@@ -42,4 +42,16 @@
 .gallery-block img {
     padding-bottom: 24px;
 
+}
+
+
+@media screen and (max-width: 1420px) {
+    .gallery-block {
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+    .gallery-block img {
+        width: 300px;
+    }
 }
