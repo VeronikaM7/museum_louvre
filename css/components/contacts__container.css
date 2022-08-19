@@ -61,3 +61,17 @@
 .contact-map {
     width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+    .contacts__box{
+        display: block;
+        padding-top: 40px;
+    }
+    .contacts-block{
+        margin-bottom: 40px;
+    }
+    .address-title{
+        font-size: 20px;
+        padding-bottom: 40px;
+    }
+}

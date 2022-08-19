@@ -26,6 +26,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
     transform: translate(0px 120px);
     opacity: 0;
     transition: all 0.8s;
@@ -42,16 +43,22 @@
 .gallery-block img {
     padding-bottom: 24px;
 
+
 }
 
 
-@media screen and (max-width: 1420px) {
-    .gallery-block {
-        align-items: center;
-        justify-content: space-evenly;
-        flex-direction: row;
-    }
+@media screen and (max-width: 1470px) {
     .gallery-block img {
-        width: 300px;
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .gallery-block img {
+        width: 47%;
+    }
+
+    .gallery-block {
+        justify-content: space-around;
     }
 }

@@ -20,13 +20,15 @@
 .ticket-box {
     max-width: 1440px;
     margin: 0 auto;
-    padding-top: 75px;
+    padding: 75px 20px 0 20px;
     display: flex;
     justify-content: space-between;
 }
 
-.ticket-box-foto{
-   max-width: 100%;
+.ticket-box-foto {
+    width: 60%;
+    height: max-content;
+
 }
 
 .ticket-second-title {
@@ -107,7 +109,8 @@ input[type=radio] {
     justify-content: center;
 }
 
-.btn-min, .btn-max {
+.btn-min,
+.btn-max {
     width: 50px;
     height: 50px;
     background-color: white;
@@ -122,4 +125,46 @@ input[type=radio] {
 .panorama-wallpaper {
     padding: 75px 0 0 0;
     width: 100%;
+}
+
+@media screen and (max-width: 1160px) {
+    .ticket-form {
+        display: none;
+    }
+
+    .ticket-box {
+        justify-content: space-around;
+    }
+
+    .tickets-btn {
+        margin-top: 40px;
+    }
+
+    .ticket-second-title-total {
+        padding-top: 39px;
+    }
+
+    .panorama-wallpaper {
+        padding-top: 40px;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    .ticket-box {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .ticket-box-foto{
+        width: 100%;
+    }
+
+    .amount-container{
+        padding-top: 40px;
+    }
+
+    .ticket-border{
+        width: 175px;
+    }
 }
