@@ -9,10 +9,17 @@
     margin: 0 auto;
     padding: 0 20px 0 20px;
     display: grid;
+    grid-template-columns: 200px 1fr 340px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "logo nav ."
+        ". nav social "
+    ;
 }
 
 .footer__container-logo-wrapper {
     margin-top: 86px;
+    grid-area: logo;
 }
 
 .footer__logo-title {
@@ -28,13 +35,12 @@
 }
 
 .footer__navigation {
-    margin-top: 87px;
-    margin-bottom: 50px;
+    margin: 87px 0 50px 145px;
+    grid-area: nav;
 }
 
 
 .footer__navigation-list {
-    display: flex;
     gap: 170px;
 }
 
@@ -44,24 +50,25 @@
 
 
 .footer__social {
+    grid-area: social;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     gap: 25px;
-    margin-top: 162px;
-
 }
 
 .footer__social-net {
-    width: 26px;
-    height: 26px;
+    width: 48px;
+    height: 48px;
     border-radius: 50%;
     border: 1px solid #666666;
     color: #fff;
-    font-size: 12px;
+    font-size: 17px;
+    text-decoration: none;
+    transition: background .5s;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-decoration: none;
-    transition: background .5s;
 }
 
 .footer__social-net:hover {
@@ -88,4 +95,65 @@
     color: #FFFFFF;
     text-decoration: none;
     padding: 50px 0 52px 0;
+}
+
+
+@media screen and (max-width: 1100px) {
+    .footer__container {
+        grid-template-columns: 200px 1fr;
+        grid-template-rows: 1fr 1fr 50px;
+        grid-template-areas:
+            "logo nav"
+            ". nav"
+            ". social"
+        ;
+    }
+
+    .footer__navigation {
+        margin-left: 99px;
+    }
+
+    .footer__social {
+        margin-bottom: 55px;
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer__container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 1fr 120px;
+        grid-template-areas:
+            "logo"
+            "nav"
+            "social"
+        ;
+    }
+
+    .footer__navigation {
+        display: flex;
+        margin: 40px 0 40px 0;
+    }
+
+    .footer__navigation-list {
+        grid-column-gap: 95px;
+        justify-content: center;
+        grid-row-gap: 30px;
+    }
+
+    .footer__container-logo-wrapper {
+        margin-top: 42px;
+    }
+
+    .footer__social {
+        justify-content: center;
+        gap: 5px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .footer__item {
+        display: none;
+    }
 }
