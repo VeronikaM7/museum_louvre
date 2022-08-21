@@ -54,21 +54,10 @@
 
 
 }
-/* 
-@media screen and (max-width: 1190px) {
-    .header__panel {
-        display: flex;
-        margin-left: 30px;
+
+@media screen and (max-width: 768px) {
+    .swiper-pagination{
+        display: none;
     }
+
 }
-
-@media screen and (max-width: 1040px) {
-    .header__navigation-list {
-        gap: 8px;
-        flex-direction: column;
-    }
-
-    .container {
-        justify-content: space-around;
-    }
-} */
